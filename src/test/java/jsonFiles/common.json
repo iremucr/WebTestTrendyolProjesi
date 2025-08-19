@@ -1,0 +1,71 @@
+{
+  "testData": [
+    {
+      "key": "acceptCookies",
+      "webType": "xpath",
+      "webValue": "//button[text()='Tümünü Kabul Et']"
+    },
+    {
+      "key": "loginButton",
+      "webType": "xpath",
+      "webValue": "//div[@class='link account-user']"
+    },
+    {
+      "key": "emailInput",
+      "webType": "xpath",
+      "webValue": "//input[@id='login-email']"
+    },
+    {
+      "key": "passwordInput",
+      "webType": "xpath",
+      "webValue": "//input[@id='login-password-input']"
+    },
+    {
+      "key": "submitButton",
+      "webType": "xpath",
+      "webValue": "//button[@type='submit' and contains(., 'Giriş Yap')]"
+    },
+    {
+      "key": "hesabimText",
+      "webType": "xpath",
+      "webValue": "//p[text()='Hesabım']"
+    },
+    {
+      "key": "searchInput",
+      "webType": "xpath",
+      "webValue": "//input[@data-testid='suggestion']"
+    },
+    {
+      "key": "firstProductCard",
+      "webType": "xpath",
+      "webValue": "(//div[contains(@class,'p-card-wrppr') and .//button[contains(@class,'add-to-basket-button')]])[1]"
+    },
+    {
+      "key": "addFirstProductToCart",
+      "webType": "xpath",
+      "webValue": "(//div[contains(@class,'p-card-wrppr')])[1]//button[contains(@class,'add-to-basket-button')]"
+    },
+    {
+      "key": "cartButton",
+      "webType": "xpath",
+      "webValue": "//a[@href='/sepet' and contains(@class, 'account-basket')]"
+    },
+    {
+      "key": "cartItem",
+      "webType": "xpath",
+      "webValue": "//div[@class='pb-basket-item-wrapper-v2' and @data-content-id]"
+    },
+    {
+      "key": "deleteCartItem",
+      "webType": "xpath",
+      "webValue": "//button[@aria-label='Ürünü sepetten çıkartma']"
+    },
+    {
+      "key": "totalPrice",
+      "webType": "xpath",
+      "webValue": "//div[contains(@class,'pb-summary-total-price')]"
+    }
+
+
+  ]
+}
